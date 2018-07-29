@@ -3,6 +3,7 @@ class Author
 
   def initialize(name)
     self.name = name
+    self.posts = []
   end
 
 end
