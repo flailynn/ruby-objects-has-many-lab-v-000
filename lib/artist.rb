@@ -18,5 +18,4 @@ class Artist
     self.songs << song
     song.artist = self
   end
-binding.pry
 end
