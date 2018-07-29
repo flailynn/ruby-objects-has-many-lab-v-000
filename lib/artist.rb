@@ -17,5 +17,6 @@ class Artist
     song = Song.new(name)
     self.songs << song
     song.artist = self
+  end
 
 end
