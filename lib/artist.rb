@@ -3,6 +3,8 @@ require 'pry'
 class Artist
   attr_accessor :name, :songs
 
+  @@song_count
+  
   def initialize(name)
     self.name = name
     self.songs = []
