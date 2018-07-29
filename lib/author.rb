@@ -8,7 +8,7 @@ class Author
 
   def add_post(post)
     post.author = self
-    self.posts << post  
+    self.posts << post
   end
 
   def add_post_by_title(title)
@@ -18,6 +18,6 @@ class Author
   end
 
   def post_count
-
+    Post.all.size
   end
 end
